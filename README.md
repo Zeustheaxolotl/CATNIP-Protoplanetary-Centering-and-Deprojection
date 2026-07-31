@@ -13,7 +13,7 @@ To Run:
 First, clone this repository and navigate to the folder in terminal:
 
 cd Protoplanet Center + Deprojection
-
+Then you will need to update the images' file path. In protoplan_center.py, on line 413, there is a line folder = Path('path/images'). Please replace this with your file path. 
 Then create and activate a new virtual environment:
 
 python -m venv venv
