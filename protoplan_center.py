@@ -410,7 +410,7 @@ def find_center(data, count):
 
 images = []
 
-folder = Path('/Users/alyxbardoe/Projects/Images')
+folder = Path('path/images')
 #for each image in images folder find center. 
 for item in folder.iterdir(): 
     if item.name.startswith('.'):
